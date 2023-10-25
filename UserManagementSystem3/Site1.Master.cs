@@ -94,5 +94,10 @@ namespace UserManagementSystem3
             LinkButton1.Visible = false;//Admin User Management
             Response.Write("<script>alert('Logout Successfully');</script>");
         }
+
+        protected void btnhellouser_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("userprofile.aspx");
+        }
     }
     }
